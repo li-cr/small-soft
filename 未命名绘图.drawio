@@ -254,8 +254,8 @@
         <mxCell id="HIN2omXiojkSsDIQN4_4-74" value="模拟酶切肽段向量化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="272" y="690" width="176" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HIN2omXiojkSsDIQN4_4-78" value="HNSW建索引" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="366.12" y="750" width="141" height="30" as="geometry" />
+        <mxCell id="HIN2omXiojkSsDIQN4_4-78" value="近似最近邻算法建索引" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="740" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HIN2omXiojkSsDIQN4_4-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HIN2omXiojkSsDIQN4_4-80">
           <mxGeometry relative="1" as="geometry">
@@ -265,10 +265,8 @@
         <mxCell id="HIN2omXiojkSsDIQN4_4-80" value="查询谱图" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="170" y="798.25" width="75" height="33.5" as="geometry" />
         </mxCell>
-        <mxCell id="HIN2omXiojkSsDIQN4_4-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HIN2omXiojkSsDIQN4_4-81">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="880" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="HIN2omXiojkSsDIQN4_4-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HIN2omXiojkSsDIQN4_4-81" target="HIN2omXiojkSsDIQN4_4-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HIN2omXiojkSsDIQN4_4-81" value="查询内积距离最近的k个" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="291.25" y="790" width="137.5" height="50" as="geometry" />
@@ -277,7 +275,7 @@
           <mxGeometry x="302.5" y="882.5" width="115" height="65" as="geometry" />
         </mxCell>
         <mxCell id="HIN2omXiojkSsDIQN4_4-87" value="得到候选alpha肽段" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="420" y="900" width="70" height="30" as="geometry" />
+          <mxGeometry x="417.12" y="890" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
